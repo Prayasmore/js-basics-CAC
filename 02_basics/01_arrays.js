@@ -22,8 +22,8 @@ const myArr2 = new Array(0, 1, 2, 3, 4, 5);
 
 const newArr = myArr2.join();
 
-// console.log(myArr2);
-// console.log(`${typeof newArr}  =>  ${newArr}`);
+console.log(myArr2);
+console.log(`${typeof newArr}  =>  ${newArr}`);
 
 // Slice, Splice
 
