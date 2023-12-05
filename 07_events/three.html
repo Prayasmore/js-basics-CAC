@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Set Interval</title>
+	<style>
+		.bg-black {
+			background-color:#414141;
+			color: aliceblue;
+		}
+	</style>
+</head>
+<body class="bg-black">
+	<h1>Chai Aur Javascript</h1>
+	<button id="start">Start</button>
+	<button id="stop">Stop</button>
+</body>
+<script>
+	const sayDate = function(str) {
+		console.log(str, Date.now());
+	};
+
+	// setInterval(sayDate, 2000);
+	let intervalId;
+
+	clearInterval(intervalId);
+
+	document.querySelector("#start").addEventListener("click", function() {
+		console.log("STARTED");
+		intervalId = setInterval(sayDate, 500, "Hi");
+	}, false);
+
+	document.querySelector("#stop").addEventListener("click", function() {
+		console.log("STOPPED");
+		clearInterval(intervalId);
+	}, false);
+
+</script>
+</html>
