@@ -4,7 +4,7 @@
 // 	signedIn: true,
 
 // 	getUserDetails: function() {
-// 		// console.log(`Username: ${this.username}`);
+// 		console.log(`Username: ${this.username}`);
 // 		console.log(this);
 // 	}
 // };
@@ -38,8 +38,8 @@ function User(username, loginCount, isLoggedIn) {
 const userOne = new User("prayas", 21, true);
 const userTwo = new User("birsu", 23, false);
 
-// console.log(userOne);
-// console.log(userTwo);
+console.log(userOne);
+console.log(userTwo);
 
 console.log(userOne.constructor);
 

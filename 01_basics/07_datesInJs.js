@@ -31,4 +31,4 @@ newDate.toLocaleString("default", {
     hour12: "default"
 });
 
-console.log(newDate);
+// console.log(newDate);

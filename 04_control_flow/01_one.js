@@ -1,8 +1,8 @@
 // if
 
-// const isUserLoggedIn = true;
-// // const temperature = 41;
-// const temperature = 51;
+const isUserLoggedIn = true;
+// const temperature = 41;
+const temperature = 51;
 
 // if ( temperature < 50 ) {
 //     console.log("less than 50");

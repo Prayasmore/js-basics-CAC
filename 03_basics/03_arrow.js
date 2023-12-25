@@ -12,18 +12,18 @@ const user = {
 // user.username = "birsu";
 // user.welcomeMessage();
 
-// console.log(this); // {} => No global contaxt in node environment
+// console.log(this); //* {} => No global context in node environment
 
 // function chai() {
 //     let username = "prayas";
-//     // console.log(this.username); undefined => You can only use this keyword inside objects
+//     console.log(this.username); //* undefined => You can only use this keyword inside objects
 // }
 
 // chai();
 
 // const chai = () => {
 //     let username = "prayas";
-//     // console.log(this.username); // undefined 
+//     console.log(this.username); //* undefined 
 //     console.log(this); // {}
 // }
 
@@ -35,9 +35,9 @@ const user = {
 
 // const addTwo = (num1, num2) => num1 + num2  // Implicit return for one line return statement
 
-// const addTwo = (num1, num2) => (num1 + num2) // dont have to write return keyword explicitly
+// const addTwo = (num1, num2) => (num1 + num2) // don't have to write return keyword explicitly
 
 // const addTwo = (num1, num2) => (username: "prayas") // undefined 
 const addTwo = (num1, num2) => ({username: "prayas"}) // if you have to return like this then you have to use parenthesis wrapping the curly braces
  
-console.log(addTwo(3, 4));
+// console.log(addTwo(3, 4));

@@ -19,14 +19,14 @@ const programming = ["js", "rb", "py", "java", "cpp"];
 //     console.log(programming[key]);
 // }
 
-// const map = new Map();
-// map.set("IN", "India");
-// map.set("US", "United States of America");
-// map.set("FR", "France");
+const map = new Map();
+map.set("IN", "India");
+map.set("US", "United States of America");
+map.set("FR", "France");
 
-// for (const key in map) {
-//     console.log(key);
-// }
+for (const key in map) {
+    console.log(key);
+}
 
 // ** Map are not iterable **
 

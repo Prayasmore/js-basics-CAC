@@ -20,21 +20,21 @@ const myArr2 = new Array(0, 1, 2, 3, 4, 5);
 // console.log(myArr2.indexOf(19));
 // console.log(myArr2.indexOf(3));
 
-const newArr = myArr2.join();
+const newArr = myArr2.join("");
 
-console.log(myArr2);
-console.log(`${typeof newArr}  =>  ${newArr}`);
+// console.log(myArr2);
+// console.log(`${typeof newArr}  =>  ${newArr}`);
 
 // Slice, Splice
 
-console.log(`1) Original array: ${myArr2}`);
+// console.log(`1) Original array: ${myArr2}`);
 
 const myn1 = myArr2.slice(1, 3);
 
-console.log(`2) Sliced array: ${myn1}`);
-console.log(`3) Original array: ${myArr2}`);
+// console.log(`2) Sliced array: ${myn1}`);
+// console.log(`3) Original array: ${myArr2}`);
 
 const myn2 = myArr2.splice(1, 3);
 
-console.log(`4) Spliced array: ${myn2}`);
-console.log(`5) Original array: ${myArr2}`);
+// console.log(`4) Spliced array: ${myn2}`);
+// console.log(`5) Original array: ${myArr2}`);

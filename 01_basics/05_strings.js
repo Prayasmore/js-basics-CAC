@@ -7,8 +7,8 @@ const repoCount = 7;
 
 const gameName = new String("Birsa-munda-21");
 
-//console.log(gameName[0]);  // B
-//console.log(gameName.__proto__); // {}
+// console.log(gameName[0]);  // B
+// console.log(gameName.__proto__); // {}
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
@@ -27,6 +27,6 @@ const newStringOne = "   prayas   ";
 
 const url = "https://prayas.com/prayas%20more";
 
-console.log(url.replace("%20", "-"));
-console.log(url.includes("prayas"));
-console.log(gameName.split("-"));
+// console.log(url.replace("%20", "-"));
+// console.log(url.includes("prayas"));
+// console.log(gameName.split("-"));

@@ -35,8 +35,8 @@ const myObj = {
     game3: "Spiderman"
 }
 
-// for (const {key, value} of myObj) {
-//     console.log(key, ":-", value);
-// }
+for (const {key, value} of myObj) {
+    console.log(key, ":-", value);
+}
 
 // ** Maps are iterable by for-of loop but not objects **
